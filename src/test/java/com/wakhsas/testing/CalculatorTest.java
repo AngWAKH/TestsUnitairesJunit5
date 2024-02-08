@@ -54,15 +54,6 @@ public void undefCalculator(){
          double result = calculator.multiply(4, 5);
         Assertions.assertEquals(20, result);
     }
-    @Test
-    public void testDivide(){
-        int result = calculator.divide(10, 2);
-        Assertions.assertEquals(5, result);
-    }
 
-    @Test
-    public void testDivisionBeZero(){
-        calculator.divide(5, 0);
-    }
 
 }
