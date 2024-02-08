@@ -12,3 +12,4 @@ pipeline {
     git 'https://github.com/AngWAKH/TestsUnitairesJunit5.git'
   }
             }
+          }
